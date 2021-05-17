@@ -1,6 +1,6 @@
 # Installation
 
-**NOTE**: This guide primarily is written for those on a Windows Machine. For Mac users [this guide](https://github.com/sophiagavrila/mac-install-guide) may be more helpful. 
+**NOTE**: This guide primarily is written for those on a Windows Machine. For Mac users [this guide](https://github.com/brynportella/RAP-210308/blob/main/environment-setup/git-install-mac.md) may be more helpful. 
 
 Within this repository, the week we will first explore a tool is listed in the document name. You are expected to have those tools downloaded and configured by the end of the first Day of the week listed, though you are free to install all of the tools earlier.
 
