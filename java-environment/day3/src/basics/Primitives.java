@@ -1,6 +1,7 @@
 package basics;
 
 public class Primitives {
+	
 	/*
 	 * CTRL + Space opens the context
 	 * menu in STS. This gives you
