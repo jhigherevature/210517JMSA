@@ -13,7 +13,7 @@ public class BreakWriter {
 	
 	public static void main(String[] args) {
 		try {
-			writeBreak("Lunch Break", 62);
+			writeBreak("Short Break", 15);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -41,7 +41,7 @@ public class BreakWriter {
 			date = new SimpleDateFormat("EEE MMM dd HH:mm:ss z yyyy")
 					.parse(new Date(System.currentTimeMillis() + ((60000 * minutes) + (hour * i))).toString());
 			
-			String formatted = new SimpleDateFormat("h:mm").format(date);
+			String formatted = new SimpleDateFormat("h:mm aa").format(date);
 			bw.append(formatted);
 			
 			switch (i) {
