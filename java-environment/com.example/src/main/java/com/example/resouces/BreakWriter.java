@@ -13,7 +13,7 @@ public class BreakWriter {
 	
 	public static void main(String[] args) {
 		try {
-			writeBreak("Short Break", 15);
+			writeBreak("Lunch Break", 55);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
