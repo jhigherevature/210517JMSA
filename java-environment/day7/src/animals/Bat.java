@@ -14,4 +14,10 @@ public class Bat implements Flyable {
 		
 	}
 
+	@Override
+	public void soar() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

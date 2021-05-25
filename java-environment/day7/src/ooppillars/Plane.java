@@ -1,6 +1,6 @@
 package ooppillars;
 
-public class Plane extends Vehicle implements Flyable {
+public class Plane extends Vehicle implements Flyable, Driveable {
 	public void fly() {
 		System.out.println("Soaring through the air");
 	}
@@ -17,5 +17,17 @@ public class Plane extends Vehicle implements Flyable {
 	@Override
 	public void fillWithFuel() {
 		System.out.println("I can be filled mid-flight even");
+	}
+
+	@Override
+	public void drive() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void soar() {
+		// TODO Auto-generated method stub
+		
 	}
 }
